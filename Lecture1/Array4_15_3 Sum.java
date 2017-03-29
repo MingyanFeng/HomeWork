@@ -14,7 +14,7 @@ public class Solution {
                 continue;
             }
             // we let target number becomes 0 - nums[i]
-            // so the question can be coverted into a "2 sum", and target is 0 - nums[i]
+            // so the question can be scoverted into a "2 sum", and target is 0 - nums[i]
             int low = i + 1;
             int high = nums.length - 1;
             int target = 0 - nums[i];
@@ -42,7 +42,7 @@ public class Solution {
     }
 }
 /*
-Time Complexity: O(n); n == nums.length;
+Time Complexity: O(n^2); n == nums.length;
 
 Space Complexity: O(1); low + high + target + i == extra O(1) constant space
 */

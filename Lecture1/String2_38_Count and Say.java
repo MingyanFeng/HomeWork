@@ -35,5 +35,5 @@ public class Solution {
 /*
 TimeComplexity: O(n^2); since we have to at least generate every solution from n = 1 to n = n, which is O(n) for each case.
 
-Space Complexity: O(n)
+Space Complexity: O(n); sb's worest case is extra O(n)
 */

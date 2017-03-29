@@ -27,7 +27,7 @@ public class Solution {
     }
 }
 /*
-Time Complexity: O(n); n == strs.length()
+Time Complexity: O(nm); n == strs.length(), m == longest element(string)'s length
 
 Space Complexity: O(1); i + j == O(1) extra constant space
 */
