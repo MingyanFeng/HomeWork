@@ -1,7 +1,7 @@
 # HomeWork
 Mingyan Feng's homework for CS501.
 
-1. LectureXX_HomeWork folder contains the assignments for each lecture.
+1. LectureXX_HomeWork folder contains the assignments for each lecture. \n
 	(1). Each LectureXX_HomeWork contains a 0XX_HomeWork_LectureXX_Diagrams.pdf file.
 	     This document shows my thinking in diagram for part of questions.
 	(2). Each problem's naming format is: TypeXX_Question Number_Brief Discription
