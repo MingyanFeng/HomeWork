@@ -8,7 +8,14 @@ public class Test {
 
 		Practice.moveZeros(nums1);
 		for (int i : nums1) {
-			System.out.print(nums1[i]);
+			System.out.print(i);
+		}
+
+		System.out.println();
+
+		Practice.rotateArray(nums2, 3);
+		for (int i : nums2) {
+			System.out.print(i);
 		}
 
 	}
