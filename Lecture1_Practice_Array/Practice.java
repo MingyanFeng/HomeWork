@@ -1,4 +1,4 @@
-public calss Practice {
+public class Practice {
 	/*
 	1. Moving Zeros
 	Move all zeros to the back of the array
@@ -43,15 +43,15 @@ public calss Practice {
 	*/
 	public static void rotateArray(int[] nums, int k) {
 		k %= nums.length;
-		reverse(nums, 0, nums.length - 1);
-		reverse(nums, 0, k - 1);
-		reverse(nums, k, nums.length - 1);
+		reverseArray(nums, 0, nums.length - 1);
+		reverseArray(nums, 0, k - 1);
+		reverseArray(nums, k, nums.length - 1);
 	}
 
 	private static void reverseArray(int[] nums, int start, int end) {
 		while (start < end) {
 			int temp = nums[start];
-			num[start] = nums[end];
+			nums[start] = nums[end];
 			nums[end] = temp;
 			start++;
 			end--;
