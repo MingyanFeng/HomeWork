@@ -77,3 +77,6 @@ public class Solution {
     Space Complexity: O(1);
     */
 }
+/*
+Version 2: Assume the First element is the result, then update it while doing traversal.
+*/
