@@ -72,8 +72,6 @@ public class Solution {
     }
     /*
     Time Complexity: O(nlogn), n = # of total ListNodes
-    Space Complexity: O(1)? 
-    What about the Step 2's space complexity? 
-    I think the space complexity should be O(logn) + O(1) == O(logn), Step 2 is O(logn), Step 3 is O(1);  
+    Space Complexity: O(logn) + O(1) == O(logn), Step 2 is O(logn), Step 3 is O(1);  
     */
 }
