@@ -61,6 +61,6 @@ public class MyMergeSort {
     }
     /*
     Time Complexity: O(nlongn), n == arr.length;
-    Space Complexity: O(logn);
+    Space Complexity: O(n), tempMergArr == O(n);
     */
 }
