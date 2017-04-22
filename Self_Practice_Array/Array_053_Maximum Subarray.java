@@ -56,3 +56,7 @@ public class Solution {
 // 这个是我参考的答案的链接：https://simpleandstupid.com/2014/10/28/maximum-subarray-leetcode-%E8%A7%A3%E9%A2%98%E7%AC%94%E8%AE%B0/
 // 这道题还需要用Devide & Conquer的方法，我没看懂答案，觉得有些难
 }
+
+/*
+Assume the First element is the result, then update it while doing traversal.
+*/
