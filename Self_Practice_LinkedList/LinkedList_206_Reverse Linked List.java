@@ -25,6 +25,11 @@ public class Solution {
 
 /*
 为什么while循环里面只判断head是否为空就可以了呢？如果写成while(head != null && head.next != null)一般是用于什么类的题型呢？
+
+解答：如果这边写成while(head != null && head.next != null)，那么整个List Node的最后一个结点就会被抛弃
+          while(head != null && head.next != null)一般用于你需要使用“待操作的Node的前一个”
+          比如，一个list node长这样：1 -> 2 -> 3 -> 4 -> 5
+          我要断开node 4和node 5的链接，我必须先得到node 4，所以head.next != null就不能省了
 */
         while (head != null) {
             // It's a "loop"
