@@ -60,6 +60,8 @@ public class Solution {
 /*
 我想的这个方法可行吗？就是可不可以就这么直接让另外一个curr = dummy, 然后不考虑head, 直接考虑dummy.next
 因为这道题里面，head有可能是被删除的，所以不可以直接返回dummy.next
+
+解答：当然可以啊~ 这个方法很好啊~
 */
 
 
