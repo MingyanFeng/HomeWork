@@ -43,6 +43,8 @@ Intersected at '3': [3]
 /*
 想问一下，这个自己构造一个环，返回结果前再把环解开的思路，正确吗？
 程序错在哪里了呢？
+
+解答：69行写错了。为什么fast要从headB开始。。。
 */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         /*
@@ -64,7 +66,8 @@ Intersected at '3': [3]
         }
         temp.next = headB;
         
-        ListNode fast = headB;
+        //ListNode fast = headB;
+        ListNode fast = headA;
         ListNode slow = headA;
         
         while (fast != null && fast.next != null) {
