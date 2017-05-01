@@ -69,5 +69,7 @@ public class Solution {
     /*
     Time Complexity: O(logn), n == # of nodes;
     Space Complexity: O(h), h == height of tree;
+
+    解答：空间复杂度应该是O(1)，因为没有递归也没有增长的变量数
     */
 }
