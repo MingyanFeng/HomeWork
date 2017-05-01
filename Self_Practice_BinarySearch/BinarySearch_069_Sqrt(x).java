@@ -38,4 +38,6 @@ public class Solution {
 }
 /*
 请问这种把mid设成long，然后再把mid强制转换成int的方法是不是太tricky了？有普适性吗？
+
+解答：这里为了避免溢出先用long求值然后转换成int的方法还是比较常见的，具有普适性
 */
